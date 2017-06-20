@@ -1,11 +1,13 @@
 # 安装
-`mkdir browserify-learn && cd browserify-learn`
-`npm i npm -g`
-`npm init -y`
-`npm install browserify --save-dev`
+##　`mkdir browserify-learn && cd browserify-learn`
+## `npm i npm -g`
+## `npm init -y`
+## `npm install browserify --save-dev`
+
 # 新建测试demo
 * 根目录下新建source文件夹，该文件下新建moudle.js
 * 根目录下新建dist文件夹
+
 ```js [moudle.js]
 function test(  ){
 	alert(1)
