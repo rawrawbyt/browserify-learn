@@ -1,0 +1,24 @@
+{
+  "name": "browserify-learn",
+  "version": "1.0.0",
+  "description": "`mkdir browserify-learn && cd browserify-learn`\r `npm i npm -g`\r `npm init -y`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify source/module.js -o dist/dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawrawbyt/browserify-learn.git"
+  },
+  "keywords": [],
+  "author": "rawraw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawrawbyt/browserify-learn/issues"
+  },
+  "homepage": "https://github.com/rawrawbyt/browserify-learn#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
